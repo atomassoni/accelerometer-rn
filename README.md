@@ -1,5 +1,26 @@
-Data for IoT Fuse App
+IoT Fuse Machine Learning Helper App
 ---
+
+Installation
+----
+Clone this repo. 
+
+At least 3 ways to run on device:
+
+1. Follow instructions for [Build Projects for Code on React Native Quickstart guide](https://facebook.github.io/react-native/docs/getting-started.html) and use command
+
+```
+react-native run-android 
+``` 
+(or run-ios)
+This option will allow you to make changes to code.
+
+2. Open ./android with Android studio and run the project on a device. Likewise, open ./ios with Xcode and run. 
+
+3. Open android/build/outputs/apk/app-debug.apk and install apk on your android.
+
+Data
+----
 Each data point is a JSON object:
 ```
 dataset = {
@@ -9,7 +30,7 @@ dataset = {
   x: float,
   y: float,
   z: float,
-}
+},
 gyroscope: 
 {
   timestamp: integer,
